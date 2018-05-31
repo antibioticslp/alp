@@ -1,0 +1,94 @@
+body {
+	font-family: sans-serif;
+	background-color: #3843bc;
+	text-align: center;
+	font-size: 22px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#correctAnswerCounter {
+	color: #6cd140;
+	margin: 0;
+	float: left;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#incorrectAnswerCounter {
+	color: #f74f4f;
+	margin: 0;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+#title {
+	padding-top: 15px;
+	color: white;
+	margin-top: 0px;
+}
+
+#question {
+	color: white;
+}
+
+#form {
+	width: 100%;
+	margin: 0;
+	margin-left: : auto;
+	margin-right: auto;
+}
+
+#form label {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 90%;
+	background-color: lightgray;
+	border-radius: 4px;
+	margin-top: 10px;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+#form label span {
+	text-align: center;
+	font-size: 30px;
+	padding: 8px 0px;
+	display: block;
+}
+
+#form label input {
+	position: absolute;
+	top: -20px;
+}
+
+#checkAnswerButton {
+	width: 50%;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: #d8db1e;
+}
+
+footer {
+	flex-shrink: 0;
+	background-color: #152f59;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 1px;
+	font-size: 14px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+main {
+	flex: 1 0 auto;
+}
