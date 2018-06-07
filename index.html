@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Antibiotics Learning Program</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+		<link rel="stylesheet" type="text/css" href="mincss.css">
+	</head>
+	<body>
+		<div class="container">
+			<main class="content">
+			<p id="correctAnswerCounter"></p>
+			<p id="incorrectAnswerCounter"></p>	
+
+			<h3 id="title">Antibiotics Learning Program</h3>
+
+			<p id="question"></p>
+
+			<form id="form">
+			</form>
+
+			<button id="checkAnswerButton" onclick="clickButton();" style="visibility:hidden" value="Check">Check answer</button>
+			</main>
+
+			<div id="passFormContainer">
+				<h3 id="title">Antibiotics Learning Program</h3>
+
+					<input id="passText" name="pass" type="password" autofocus placeholder="Enter Password"/>
+					<button id="checkPass" type="button" onclick="checkPassword();">Submit</button>
+
+					<p id="incorrectPasswordText" style="color:#f74f4f;visibility:hidden;">Incorrect Password</p>
+			</div>
+
+			<footer>
+				<p>&copy 2018 Ryan Sheehy Ph.D. and Jared Boyd</p>
+			</footer>
+		</div>
+
+	</body>
+		<script type="text/javascript" src="minjs.js"></script>
+
+</html>
